@@ -1,0 +1,33 @@
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+@import url(./styles/about.css);
+@import url(./styles/address.css);
+@import url(./styles/menus.css);
+@import url(./styles/menus-itens.css);
+@import url(./styles/footer.css);
+@import url(./styles/gallery.css);
+
+:root{
+    --color-blue: #3fb6ce;
+    --color-light-blue: #3876BF;
+    --color-orange: #E1AA74;
+    --color-beige: #ffe4c7;
+    --color-brown: #321c0e;
+    --font-color-hover: #1c160d;
+
+    --font-default: 'Nanum Gothic', sans-serif;
+    --font-title: 'PT Sans Narrow', sans-serif;
+}
+
+* {
+    transition: 1s;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+body{
+    font-family: var(--font-default);
+    background: var(--color-beige);
+}

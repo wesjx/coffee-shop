@@ -1,0 +1,34 @@
+.menu_container{
+    padding-top: 8em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_title{
+    padding-bottom: 1em;
+    border-bottom: 1px solid;
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+.menu_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_menu > div {
+    margin: 16px;
+    border-bottom: 1px solid;
+    padding: 16px;
+    width: 80%;
+}
+
+.menu_menu > div > div {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+}

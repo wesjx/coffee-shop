@@ -1,0 +1,43 @@
+.banner-container {
+    background: url(../assets/banner.jpg) no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5em;
+}
+
+.banner-container > img {
+    width: 25%;
+}
+
+
+.banner-text {
+    text-align: center;
+    color: var(--color-beige);
+    font-size: 1.3em;
+
+}
+
+.banner-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+@media (max-width: 999px) {
+    .banner-container {
+        flex-direction: column;
+        justify-content: center;
+        }
+
+    .banner-container > img {
+        width: 330px;
+    }
+}

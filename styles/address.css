@@ -1,0 +1,39 @@
+.address-container {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-beige);
+    color: var(--color-brown);
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.address-container>h2 {
+    padding: 1em 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.address-container>h3 {                                                           
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+
+.address-container>p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.social-media_list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 1em;
+    width: 10em;
+}
+
+.social-media_item>a>img {
+    width: 100%;
+}
